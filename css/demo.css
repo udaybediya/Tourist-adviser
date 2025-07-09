@@ -1,0 +1,45 @@
+.fotter {
+    background: url(Img/0_displayimg/fotter3.png) no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+.fotter .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: -3rem;
+    margin-left: 1%;
+}
+
+.fotter .box-container .box h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+
+.fotter .box-container .box a {
+    color: lightcyan;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    display: block;
+}
+
+.fotter .box-container .box a i {
+    color: rgb(107, 155, 167);
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.fotter .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.fotter .credit {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    border-top: .1rem solid lightcyan;
+    font-size: 2rem;
+    color: white;
+}

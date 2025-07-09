@@ -1,0 +1,194 @@
+    /* header css */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-family: "Poppins", sans-serif;
+    }
+
+    html {
+      font-size: 62.5%;
+      overflow-x: hidden;
+    }
+
+    body {
+      background-color: #f0f0f0;
+      font-size: 14px;
+    }
+
+    header {
+      background-color: rgb(107, 155, 167);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    section {
+      padding: 5rem 10%;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      left: 0%;
+      right: 0%;
+      z-index: 1000;
+      background-color: white;
+      display: flex;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      box-shadow: 0.5rem 0.1rem rgb(0, 0, 0, 1);
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      text-align: left;
+    }
+
+    header nav ul {
+      list-style: none;
+      margin: 0%;
+      padding: 0%;
+      display: flex;
+      justify-content: end;
+    }
+
+    header nav ul li {
+      margin-right: 60px;
+    }
+
+    header nav a {
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    header nav a:hover {
+      color: #ccc;
+    }
+
+
+    /* Destination page*/
+    .card-contener {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 75px;
+      justify-content: center;
+    }
+
+    .card {
+      width: 25%;
+      background-color: #f0f0f0;
+      height: auto;
+      border-radius: 3%;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      margin: 5px;
+    }
+
+    .card-contener h1 {
+      margin-left: 1%;
+      font-size: 25px;
+      margin-bottom: 5px;
+    }
+
+    .card-contener p {
+      color: #666;
+      padding-left: 1px;
+      font-size: 15px;
+      line-height: 0.5;
+      font-weight: 500;
+    }
+
+    .card-contener .info {
+
+      color: #666;
+      margin-top: 3%;
+      padding-left: 5px;
+      line-height: 1;
+    }
+
+    .bxs-sun,
+    .bxs-moon {
+      font-weight: 500;
+    }
+
+    .bx-rupee {
+      font-weight: 600;
+      margin-left: 79%;
+      font-style: normal;
+      font-size: 2.5vh;
+      color: #666;
+    }
+
+    .btn {
+      margin-left: 75%;
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: rgb(107, 155, 167);
+      ;
+      text-decoration: none;
+      border-radius: 20px;
+      margin-top: 10px;
+      color: #fff;
+    }
+      /* fotter css*/
+  .fotter {
+    margin-top: 5%;
+    background-color: rgb(107, 155, 167);
+}
+
+.fotter .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: -3rem;
+    margin-left: 1%;
+}
+
+.fotter .box-container .line h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+
+.fotter .box-container .line a{
+    color: lightcyan;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.fotter .box-container .line i{
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.fotter .box-container .line a:hover i{
+    padding-right: 2rem;
+}
+
+.fotter .credit {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    border-top: .1rem solid lightcyan;
+    font-size: 2rem;
+    color: white;
+}

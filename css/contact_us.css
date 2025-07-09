@@ -1,0 +1,282 @@
+/* header css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+header {
+    background-color: rgb(107, 155, 167);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 5rem 10%;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    z-index: 1000;
+    background-color: white;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0.5rem 0.1rem rgb(0, 0, 0, 1);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    text-align: left;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li {
+    margin-right: 60px;
+}
+
+header nav a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+/* contact_us */
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background-color: white;
+    display: flex;
+
+}
+
+.contact-left {
+    flex-basis: 80%;
+    padding: 40px 40px;
+    margin-top: 2px;
+
+}
+
+.contact-right {
+    flex-basis: 20%;
+    padding: 40px;
+    background-color: rgb(107, 155, 167);
+    color: white;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20pxs;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+ .button {
+    position: relative;
+    right: 1%;
+}
+
+.anchor {
+    margin-left: 1%;
+    padding: 8px 16px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid rgb(107, 155, 167);
+    padding: 14px 40px 13px;
+    overflow: hidden;
+    position: relative;
+}
+
+.anchor:hover {
+    color: #4e484a;
+}
+
+.button button::before {
+    position: absolute;
+    content: "";
+    z-index: 0;
+    background-color: rgb(107, 155, 167);
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    height: 111%;
+    transition: all .3s ease;
+}
+
+.button button:hover::before {
+    height: 11%;
+}
+
+.button span {
+    position: relative;
+    z-index: 2;
+    transition: all .3s ease;
+} 
+
+
+.contact-left h3 {
+    padding: 1%;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.container {
+    width: 50%;
+    margin-top: 7%;
+    background: white;
+    box-shadow: 0px 5px 15px 0px #333;
+    color: #333;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.contact-box {
+    border: 2px solid #ccc;
+}
+
+.table {
+    font-weight: 300;
+}
+
+td {
+    font-size: large;
+    padding: 2px;
+}
+
+tr td:first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+  /* fotter css*/
+  .fotter {
+    margin-top: 5%;
+    background-color: rgb(107, 155, 167);
+}
+
+.fotter .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: -3rem;
+    margin-left: 1%;
+}
+
+.fotter .box-container .line h3 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 2%;
+}
+
+.fotter .box-container .line a{
+    color: lightcyan;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+}
+
+.fotter .box-container .line i{
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.fotter .box-container .line a:hover i{
+    padding-right: 2rem;
+}
+
+.fotter .credit {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+    border-top: .1rem solid lightcyan;
+    font-size: 2rem;
+    color: white;
+}
